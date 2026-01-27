@@ -33,25 +33,31 @@
 // let y = false;
 // console.log((x && !y) || (!x && y))
 
-// let number1 = prompt("напишите число с 10 до 100");
-// number1 = Number(number1);
-// if ( number1 >= 10 && number1 <= 100) { 
+// 1 ЗАДАЧА
+
+// let n = prompt("напишите число с 10 до 100");
+// n = Number(n);
+// if ( n >= 10 || n <= 100) { 
 //     console.log( "ты молодец число входит в диапозон");
 // }
 // else {      
 //     console.log("число не входит в диапозон");
 // }
 
+// 2 ЗАДАЧА
 
-// let number1 = prompt("напишите число для проверки чётное оно или нет")
-// number1 = Number(number1);
-// if ( number1 % 2 === 0) { 
+// let n = prompt("напишите число для проверки чётное оно или нет")
+// n = Number(n);
+// if ( n % 2 === 0) { 
 //     console.log("число чётное")
 // }
 // else {  
 //     console.log ("число нечётное!")
 // }
 
+// 3 ЗАДАЧА
+
 // let age = prompt("напишите свой возраст")
 // let message = (age<18)?"доступ запрещён":"доступ разрешён";
 // console.log(message);
+
