@@ -385,4 +385,148 @@
  
 // numCheck(prompt(), prompt())
 
+// function switchcase(num1) { 
+//         num1 = +prompt("введите число")
+//         switch(num1) { 
+//        case 0:
+//             alert('0')
+//             break
+//             case 1:
+//                alert('1')
+//                 break
+//                 case 2:
+//              case 3:
+//         alert('2 3') 
+//         break
+//         default:
+//         alert("не в диапозоне")
+//    }
+//    }
+//    switchcase()
 
+
+
+//      1)
+
+// let n =+ prompt("Введите сумму покупки")
+
+// if (n>999 && n<2000){
+//         alert("Ваша скидка 10%")
+// } if (n>1999 && n<5000) {
+//         alert("Ваша скидка 15%")
+// } if (n>4999) {
+//         alert("Ваша скидка 30%")
+// } else if (n<1000) {
+//         alert("Ваша скидка 0%")
+// }
+
+//      2)
+
+// let n =+ prompt("Введите число от 1 до 7")
+
+// switch(n) {
+//         case 1:
+//         alert("Понедельник")
+//         break
+//         case 2:
+//         alert("Вторник")
+//         break
+//         case 3:
+//         alert("Среда")
+//         break
+//         case 4:
+//         alert("Четверг")
+//         break
+//         case 5:
+//         alert("Пятница")
+//         break
+//         case 6:
+//         alert("Суббота")
+//         break
+//         case 7:
+//         alert("Воскресенье")
+//         break
+// }
+
+//      3)
+
+// let n = 100;
+
+// for (let i = 2; i <= n; i++) { 
+
+//         bool = true
+
+//   for (let j = 2; j < i; j++) {
+
+//     if (i % j == 0){
+//         bool=false
+//         break
+//     } 
+//   }
+
+//   if(bool){
+//   console.log( i )
+//   }
+
+// }
+
+//      4)
+
+// let userN=0
+// let randN = Math.floor(Math.random() * 100);
+// alert(randN)
+// cycle=true
+
+// while (cycle==true){
+//         let userN =+ prompt("Угадайте число от 0 до 100:")
+        
+//         if (userN > randN){
+//                 alert("Мимо. Число меньше.")
+//         }
+//         if (userN < randN){
+//                 alert("Мимо. Число больше.")
+//         }
+
+//         if (userN === randN){        
+//                 alert("В ТОЧКУ!")
+//                 cycle=false
+//         }
+// }
+
+//      5)
+
+// a =+ prompt("Введите балл по 1 предмету: ")
+// b =+ prompt("Введите балл по 2 предмету: ")
+// c =+ prompt("Введите балл по 3 предмету: ")
+
+// let sredArif = (a + b + c)/3;
+// if (sredArif>=90 && sredArif<=100){
+//         alert("У вас 90 - 100 баллов - оценка ПЯТЬ")
+// }
+// if (sredArif>=75 && sredArif<=89){
+//         alert("У вас 75 - 89 баллов - оценка ЧЕТЫРЕ")
+// }
+// if (sredArif>=60 && sredArif<=74){
+//         alert("У вас 60 - 74 баллов - оценка ТРИ")
+// }
+// else if (sredArif<=60){
+//         alert("У вас меньше 60 баллов - оценка ДВА")
+// }
+
+//      6)
+
+// alert("Введите слово, программа проверит наличие буквы К в этом слове: ")
+
+// string = prompt()
+// check = string.includes('к')
+
+// console.log(check === true ? 'Есть буква К' :  'Нет буквы К')
+
+//      7)
+
+// alert("Введите слово, программа выведет колво букв в этом слове: ")
+
+// let string = prompt()
+// let count = string.length;
+
+// alert(count)
