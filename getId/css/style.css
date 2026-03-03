@@ -1,0 +1,17 @@
+.highlight{
+    background-color: red;
+}
+.hide{
+    display: none;
+    
+}
+.redBg {
+    background-color: red;
+}
+.largeFont{
+    font-size: large;
+}
+.addBorder{
+    
+    border: 2px solid black;
+}
